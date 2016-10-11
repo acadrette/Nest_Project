@@ -124,7 +124,6 @@ body{
 }
 
 .gallery-img img{
-	height:100%;
 	left:-125px;
 }
 .gallery-img img{
@@ -133,22 +132,26 @@ body{
 	height: 310px;
 	margin-top: 10px;
 	margin-right: 10px;
-	overflow:hidden;
+	object-fit: cover;
 }
 .gallery-img img:hover{
 	opacity: 0.3;
 }
 .gallery-img .text {
-	margin: 75px;
 	position: absolute;
 	visibility: hidden;
 	font-size: 30px;
 	color: black;	
 }
 .gallery-img p{
+	padding: 75px;
 	display: inline;
 	clear: both;
 	text-align: center;
+	vertical-align: middle;
+	width: 160px;
+	height: auto;
+	
 }
 .gallery-img:hover .text{
 	visibility: visible;
@@ -189,15 +192,19 @@ body{
 }
 .article-content{
 	padding-top: 30px;
+	margin-left: 620px;
+	margin-bottom: 50px;
 }
 .article-content p{
 	font-size: 20px;
 	color: black;
+	height: auto;
+	width: 600px;
 }
 .bottom-images img{
-	width: auto;
+	width: 1200px;
 	margin-left: 60px;
-	margin-top: 10px;
+	margin-top: 50px;
 	height: 600px;
 	object-fit: cover;
 
