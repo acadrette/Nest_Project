@@ -209,7 +209,21 @@ body{
 	object-fit: cover;
 
 }
-
+.contact {
+	font-family: georgia;
+}
+.contact form{
+	 padding: 20px;
+}
+.contact input{
+	padding: 4px;
+ 	font-size: 20px;
+  	font-family: georgia;
+  	height: 100px;   	
+}
+.contact input[type="text"] {
+  color: gray;
+}
 
 /*FOOTER*/
 .footer{
@@ -218,7 +232,6 @@ body{
 	height: 100px;
 	background-color: gray;
 	margin-top: 10px;
-
 
 }
 
